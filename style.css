@@ -1,0 +1,88 @@
+/* Login */
+.login-container {
+  width: 300px;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  padding: 30px;
+}
+.input-form {
+  display: block;
+  padding: 5px;
+  width: 200px;
+  margin: 0px auto 15px auto;
+}
+
+/* Index */
+.chatbox-container {
+  position: relative;
+  width: 1000px;
+  margin: 10px auto 0px auto;
+}
+.user-container {
+  width: 280px;
+  height: 100%;
+  position: absolute;
+  background-color: brown;
+  margin-right: auto;
+}
+.convo-container {
+  width: 700px;
+  height: 500px;
+  background-color: blueviolet;
+  margin-left: auto;
+}
+.convo-inner-container {
+  padding: 10px;
+}
+.input-container {
+  margin-top: 10px;
+  margin-left: auto;
+  display: flex;
+  width: 700px;
+}
+.input-area {
+  width: 100%;
+  margin-right: 10px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  text-align: end;
+  margin: 30px auto 0px auto;
+}
+
+/* Conversation */
+.convo-wrapper {
+  display: flex;
+}
+.convo-name {
+  display: block;
+  padding-left: 2px;
+  color: #fff;
+}
+.own-message {
+  margin-left: auto;
+  display: inline-block;
+  max-width: 300px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+.other-message {
+  display: inline-block;
+  max-width: 300px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+/* Online users */
+.online-user-container {
+  padding: 5px;
+}
+.user-name {
+ color: wheat;
+}
